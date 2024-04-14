@@ -642,9 +642,9 @@ stressplot(above_merged_nmds)
 above_merged_nmds$stress  # Stress is < 0.2 which is good
 
 # Checking assumption of homogeneity in multivariate dispersion
-#above.inv.dist <- vegdist(above_merged_abundances_only_nmds, method = "bray")  # 
-#above.inv.dispersion <- betadisper(above.inv.dist, group = above_merged_abundances_only_nmds_rows$plot_type_month)
-#permutest(above.inv.dispersion)
+above.inv.dist <- vegdist(above_merged_abundances_only_nmds, method = "bray")  
+above.inv.dispersion <- betadisper(above.inv.dist, group = above_merged_abundances_only_nmds_rows$plot_type_month)
+permutest(above.inv.dispersion)
 
 
 
@@ -738,7 +738,7 @@ below_merged_nmds$stress  # Stress is < 0.2 which is good
 
 
 # Checking assumption of homogeneity in multivariate dispersion
-below.inv.dist <- vegdist(below_merged_abundances_only_nmds, method = "bray")  # 
+below.inv.dist <- vegdist(below_merged_abundances_only_nmds, method = "bray") # 
 below.inv.dispersion <- betadisper(below.inv.dist, group = below_merged_abundances_only_nmds_rows$plot_type_month)
 permutest(below.inv.dispersion)
 
