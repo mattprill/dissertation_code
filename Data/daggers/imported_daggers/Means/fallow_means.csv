@@ -1,0 +1,4 @@
+"plot","plot_type","dagger","mean_soil_temp","min_soil_temp","max_soil_temp","range_soil_temp","mean_surface_temp","min_surface_temp","max_surface_temp","range_surface_temp","mean_air_temp","min_air_temp","max_air_temp","range_air_temp","sd_soil_temp","sd_surface_temp","sd_air_temp","mean_soil_moisture","min_soil_moisture","max_soil_moisture","range_soil_moisture","sd_soil_moisture"
+1,"fallow","f1",7.988507055,1,14.375,13.375,7.635639508,-3.1875,19.5,22.6875,8.067449932,-3.5625,19.125,22.6875,3.532925696,4.54862243,4.48838925,0.2931504,0.1681374,0.4997135,0.3315761,0.0454342
+2,"fallow","f2",8.04287096,0.875,14.75,13.875,7.780951297,-2.875,19.0625,21.9375,8.040737369,-3.5625,18.625,22.1875,3.606780323,4.528357495,4.414745671,0.3735584,0.2265369,0.49017,0.2636331,0.05171049
+3,"fallow","f3",7.87204142,0.625,14.625,14,7.756685253,-2.75,19.5,22.25,7.935593992,-3.0625,18.625,21.6875,3.704668487,4.55934987,4.377434545,0.4041388,0.3113429,0.5261209,0.214778,0.04301983
